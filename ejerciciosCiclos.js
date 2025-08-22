@@ -111,11 +111,20 @@ function potencia(base, exp)
 potencia (2,6)
 //9. Desarrolla una función que genere y devuelva los primeros N términos de la serie de Fibonacci.
 
-cont1 = 0;
-cont2 = 1;
-
-
-
+function Fibonacci(num3)
+{
+    let cont1=0;
+    let cont2=1;
+    let serie=0;
+    for (let i=0; i<num3; i++)
+    {
+        console.log(cont1)
+        serie = cont1+cont2;
+        cont1=cont2;
+        cont2=serie;        
+    }    
+}
+Fibonacci(4)
 
 
 //10. Desarrolla una función que genere el total de las tablas de multiplicar dado un numero entero.
