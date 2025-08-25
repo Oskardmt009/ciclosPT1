@@ -124,7 +124,7 @@ function Fibonacci(num3)
         cont2=serie;        
     }    
 }
-Fibonacci(4)
+Fibonacci(10)
 
 
 //10. Desarrolla una función que genere el total de las tablas de multiplicar dado un numero entero.
